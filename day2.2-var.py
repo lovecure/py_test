@@ -24,13 +24,13 @@ print('False and False is:',False and False)
 print('5>3 and 3>1 is:',5>3 and 3>1)
 
 print('True or True is:',True or True)
-False or True
-False or False
-5>3 or 1>3
+print('False or True is:',False or True)
+print('False or False is:',False or False)
+print('5>3 or 1>3 is:',5>3 or 1>3)
 
-not True
-not False
-not 1>2
+print('not True is:',not True)
+print('not False is:',not False)
+print('not 1>2 is',not 1>2)
 
 age = 20
 if age >= 18:
