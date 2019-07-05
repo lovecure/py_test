@@ -1,4 +1,3 @@
-#!/data/data/io.neoterm/files/usr/bin/python
 # -*- coding: utf-8 -*-
 
 r'''

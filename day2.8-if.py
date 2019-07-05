@@ -1,4 +1,3 @@
-#!/data/data/io.neoterm/files/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 print('例1:if语句判断是Ture则执行缩进的两行"print"')
 print('''
