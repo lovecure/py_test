@@ -100,3 +100,49 @@ print('结果:')
 x = 'x'
 if x:
 	print('True')
+
+print('\n')
+print('\n')
+print('\n')
+
+print('''
+例6:input类型问题
+birth = input('birth:')
+if birth < 2000:
+	print('00前')
+else:
+	print('00后')
+输入任意年份，结果报错:"TypeError: unorderable types: str() > int()"
+\n
+这是因为input()返回的数据类型是"str","str"不能直接和整数比较，必须现把"str"转换成整数，Python提供了"int()"函数来完成这件事
+''')
+
+print('\n')
+
+print('''
+经过改良的程序:
+s = input('birth:')
+birth = int(s)
+if birth < 2000:
+	print('00前')
+else:
+	print('00后')
+''')
+
+print('结果:')
+s = input('birth:')
+birth = int(s)
+if birth < 2000:
+	print('00前')
+else:
+	print('00后')
+
+print ('\n')
+print ('''
+可以得出正确的结果，但是如果输入abc，又会得出错误信息
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'abc'
+\n
+因为int()函数发现一个字符并不是合法的数字就会报错
+''')
