@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 print('数据类型list:是一种有序的合集')
 print('classmates=[\'Michael\',\'Bob\',\'Tracy\']\n')
 print('\n')
