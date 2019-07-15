@@ -19,7 +19,7 @@ print('3>2 is:',3>2)
 print('3>5 is:',3>5)
 
 print('True and True is:',True and True)
-print('True and True is:',True and False)
+print('True and False is:',True and False)
 print('False and False is:',False and False)
 print('5>3 and 3>1 is:',5>3 and 3>1)
 
