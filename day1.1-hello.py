@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-name = input()
+name = print('please input you name:'),input()
 print('hello',name)
 
 
