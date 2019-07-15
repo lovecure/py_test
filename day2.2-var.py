@@ -19,6 +19,7 @@ print('3>2 is:',3>2)
 print('3>5 is:',3>5)
 
 print('True and True is:',True and True)
+r'''只有所有都为True,and结果才为"True"'''
 print('True and False is:',True and False)
 print('False and False is:',False and False)
 print('5>3 and 3>1 is:',5>3 and 3>1)
