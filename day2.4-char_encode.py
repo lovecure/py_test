@@ -16,4 +16,3 @@ len('中文')
 len(b'ABC')
 len(b'\xe4\xb8\xad\xe6\x96\x87')
 len('中文'.encode('utf-8'))
-# -*- coding: utf-8 -*-
